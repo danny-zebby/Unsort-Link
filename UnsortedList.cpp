@@ -37,7 +37,7 @@ bool UnsortedList<T>::Contains(T someItem) {
     while(temp != nullptr){
         if(temp->value == someItem)
             return true;
-    temp = temp->next;}
+        temp = temp->next;}
     return false;
 }
 
